@@ -39,6 +39,13 @@ function App() {
           Coded by <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">You</a>.
         </p>
       </div>
+    <footer>
+      <div className="attribution">
+        Challenge by <a href="https://www.crio.do" target="_blank" rel="noopener noreferrer">Crio</a>.
+        Coded by <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">You</a>.
+      </div>
+    </footer>
+
     </div>
   );
 }
