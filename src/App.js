@@ -4,7 +4,7 @@ import creatorAvatar from './image-avatar.png';
 
 function App() {
    return (
-    <div className="card">
+    <main className="card">
       <div className="card__images">
         <img src={nftImage} alt="Equilibrium" />
         <div className="card__images-layer">
@@ -19,11 +19,11 @@ function App() {
 
       <div className="card__time">
         <div className="card__time-left">
-          <img src="./images/icon-ethereum.svg" alt="Ethereum" />
+          <img src="./icon-ethereum.svg" alt="Ethereum" />
           <span>0.041 ETH</span>
         </div>
         <div className="card__time-right">
-          <img src="./images/icon-clock.svg" alt="Clock" />
+          <img src="./logo.svg" alt="Clock" />
           <span>3 days left</span>
         </div>
       </div>
@@ -40,7 +40,7 @@ function App() {
       </div>
     </footer>
 
-    </div>
+    </main>
   );
 }
 
