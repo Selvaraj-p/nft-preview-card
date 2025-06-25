@@ -10,7 +10,6 @@ function App() {
         <div className="card__images-layer">
           <img src="./images/icon-view.svg" alt="View icon" />
         </div>
-      </div>
 
       <div className="card__title">
         <h1>Equilibrium #3429</h1>
@@ -30,7 +29,8 @@ function App() {
 
       <div className="card__creator">
         <img src={creatorAvatar} alt="Creator" />
-        <p><span>Creation of</span> Jules Wyvern</p>
+        <p><span>Creation of</span> Selvaraj P</p>
+      </div>
       </div>
 
     <footer>
