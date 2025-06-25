@@ -29,7 +29,7 @@ function App() {
 
       <div className="card__creator">
         <img src={creatorAvatar} alt="Creator" />
-        <p><span>Creation of</span> Selvaraj P</p>
+        <p><span>Creation of</span>Selvaraj-p</p>
       </div>
       </div>
 
