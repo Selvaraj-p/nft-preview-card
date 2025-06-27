@@ -2,8 +2,8 @@ import '../src/Card.css';
 import nftImage from './images/image-equilibrium.jpg';
 import creatorAvatar from './images/image-avatar.png';
 import viewIcon from './images/icon-view.svg';
-//import ethIcon from '../src/images/icon-ethum.png.svg';
-//import clockIcon from '../src/images/icon-clock.svg';
+import ethIcon from '../src/images/icon-ethum.png.svg';
+import clockIcon from '../src/images/icon-clock.svg';
 export default function NftCard() {
   return (
     <main className="card">
@@ -21,11 +21,11 @@ export default function NftCard() {
 
       <div className="card__time">
         <div className="card__time-left">
-          <img src={"Ethereum icon"} alt="Ethereum icon" />
+          <img src={ethIcon} alt="Ethereum icon" />
           <span>0.041 ETH</span>
         </div>
         <div className="card__time-right">
-          <img src={"Clock icon"} alt="Clock icon" />
+          <img src={ClockIcon} alt="Clock icon" />
           <span>3 days left</span>
         </div>
       </div>
