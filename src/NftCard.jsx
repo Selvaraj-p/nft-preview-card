@@ -16,7 +16,7 @@ export default function NftCard() {
 
       <div className="card__title">
         <h1>Equilibrium #3429</h1>
-        <p><h1>Our Equilibrium collection promotes balance and calm.</h1></p>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
       </div>
 
       <div className="card__time">
