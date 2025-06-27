@@ -32,7 +32,7 @@ export default function NftCard() {
 
       <div className="card__creator">
         <img src={creatorAvatar} alt="Creator" />
-        <p><span>Creation of</span> Jules Wyvern</p>
+        <p><span>Creation of</span>selvaraj-p</p>
       </div>
 
       <footer>
