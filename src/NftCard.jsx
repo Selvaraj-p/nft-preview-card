@@ -16,7 +16,7 @@ export default function NftCard() {
 
       <div className="card__title">
         <h1>Equilibrium #3429</h1>
-        <p>Our Equilibrium collection promotes balance and calm.</p>
+        <p><h1>Our Equilibrium collection promotes balance and calm.</h1></p>
       </div>
 
       <div className="card__time">
@@ -32,7 +32,7 @@ export default function NftCard() {
 
       <div className="card__creator">
         <img src={creatorAvatar} alt="Creator" />
-        <p><span>Creation of</span>selvaraj-p</p>
+        <p><span>Creation of </span>selvaraj-p</p>
       </div>
 
       <footer>
