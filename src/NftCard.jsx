@@ -38,7 +38,7 @@ export default function NftCard() {
       <footer>
         <div className="attribution">
           Challenge by <a href="https://www.crio.do" target="_blank" rel="noopener noreferrer">Crio</a>.
-          Coded by <a href="https://github.com/selvaraj-p" target="_blank" rel="noopener noreferrer">You</a>.
+          Coded by <a href="https://github.com/selvaraj-p" target="_blank" rel="noopener noreferrer">selvaraj-p</a>.
         </div>
       </footer>
     
