@@ -6,7 +6,7 @@ import ethIcon from '../src/images/icon-ethum.svg';
 import clockIcon from '../src/images/icon-clock.svg';
 export default function NftCard() {
   return (
-    <main className="card">
+<div><main className="card">
       <div className="card__images">
         <img src={nftImage} alt="Equilibrium" />
         <div className="card__images-layer">
@@ -34,14 +34,14 @@ export default function NftCard() {
         <img src={creatorAvatar} alt="Creator" />
         <p><span>Creation of </span>selvaraj-p</p>
       </div>
-
-      <footer>
-        <div className="attribution">
-          Challenge by <a href="https://www.crio.do" target="_blank" rel="noopener noreferrer">Crio</a>.
-          Coded by <a href="https://github.com/selvaraj-p" target="_blank" rel="noopener noreferrer">selvaraj-p</a>.
-        </div>
-      </footer>
+  </main>
+  <footer>
+    <div className="attribution">
+      Challenge by <a href="https://www.crio.do" target="_blank" rel="noopener noreferrer">Crio</a>.
+      Coded by <a href="https://github.com/selvaraj-p" target="_blank" rel="noopener noreferrer">selvaraj-p</a>.
+    </div>
+  </footer>
+</div>
     
-    </main>
   );
 }
