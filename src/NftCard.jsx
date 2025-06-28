@@ -32,13 +32,13 @@ export default function NftCard() {
 
       <div className="card__creator">
         <img src={creatorAvatar} alt="Creator" />
-        <p><span>Creation of </span>selvaraj-p</p>
+        <p><span>Creation of selvaraj-p</span></p>
       </div>
   </main>
   <footer>
     <div className="attribution">
       Challenge by <a href="https://www.crio.do" target="_blank" rel="noopener noreferrer">Crio</a>.
-      Coded by <a href="https://github.com/selvaraj-p" target="_blank" rel="noopener noreferrer">selvaraj-p</a>.
+      Coded by <a href="https://www.github.com/selvaraj-p" target="_blank" rel="noopener noreferrer">selvaraj-p</a>.
     </div>
   </footer>
 </div>
