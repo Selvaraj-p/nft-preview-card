@@ -42,10 +42,7 @@ const NFTCard = () => {
         </span>
       </div>
 
-      <footer className="attribution">
-        <a href="https://www.crio.do" target="_blank" rel="noreferrer">Crio</a> |{" "}
-        <a href="https://www.github.com/selvaraj-p" target="_blank" rel="noreferrer">selvaraj-p</a>
-      </footer>
+
     </main>
   );
 };
