@@ -1,29 +1,29 @@
-import React, { useState } from 'react';
-import './NFTCard.css';
+
+
 import Equip from './images/image-equilibrium.jpg';
 import EquipIco from './images/icon-view.svg';
 import Ether from './images/icon-ethereum.svg';
 import AVR from './images/image-avatar.png';
 import CLK from './images/icon-clock.svg';
-export default function NFTCard() {
-  const [hover, setHover] = useState(false);
 
+import React from "react";
+import "./NFTCard.css";
+
+const NFTCard = () => {
   return (
-    <div className="card">
-      <div
-        className="card__images"
-        onMouseEnter={() => setHover(true)}
-        onMouseLeave={() => setHover(false)}
-      >
-        <img src={Equip} alt="Equilibrium #3429" className="card__image" />
-        <div className="card__images-layer" style={{ opacity: hover ? 1 : 0 }}>
-          <img src={EquipIco} alt="View Icon" className="card__view-icon" />
+    <main className="card">
+      <div className="card__images">
+        <img src={Equip} alt="Equilibrium NFT" />
+        <div className="card__images-layer">
+          <img src={EquipIco} alt="View icon" />
         </div>
       </div>
+
       <h1 className="card__title">Equilibrium #3429</h1>
       <p className="card__description">
         Our Equilibrium collection promotes balance and calm.
       </p>
+
       <div className="card__time">
         <div className="card__time-left">
           <img src={Ether} alt="Ethereum" />
@@ -34,10 +34,20 @@ export default function NFTCard() {
           <span>3 days left</span>
         </div>
       </div>
+
       <div className="card__creator">
-        <img src={AVR} alt="Creator Avatar" className="card__creator-avatar" />
-        <p>Creation of <span className="card__creator-name">Jules Wyvern</span></p>
+        <img src={AVR} alt="Creator" />
+        <span>
+          Creation of <strong>selvaraj-p</strong>
+        </span>
       </div>
-    </div>
+
+      <footer className="attribution">
+        <a href="https://www.crio.do" target="_blank" rel="noreferrer">Crio</a> |{" "}
+        <a href="https://www.github.com/selvaraj-p" target="_blank" rel="noreferrer">selvaraj-p</a>
+      </footer>
+    </main>
   );
-}
+};
+
+export default NFTCard;
