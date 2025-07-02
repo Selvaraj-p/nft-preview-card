@@ -43,7 +43,7 @@ const NFTCard = () => {
       </div>
       <footer className="attribution">
         Challenge by <a href="https://www.crio.do" target="_blank" rel="noopener noreferrer">Crio</a>.
-        Coded by <a href="https://github.com/selvaraj-p" target="_blank" rel="noopener noreferrer">selvaraj-p</a>.
+        Coded by <a href="https://www.github.com/selvaraj-p" target="_blank" rel="noopener noreferrer">selvaraj-p</a>.
       </footer>
 
     </main>
