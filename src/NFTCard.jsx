@@ -18,12 +18,13 @@ const NFTCard = () => {
           <img src={EquipIco} alt="View icon" />
         </div>
       </div>
-    <div className="card__title">
-          <h1>Equilibrium #3429</h1>
-          <p className="card__description">
-            Our Equilibrium collection promotes balance and calm.
-          </p>
-    </div>  
+    <div id="info">
+      <h1 className="card__title">Equilibrium #3429</h1>
+      <p className="card__description">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+    </div>
+      
     <div className="card__time">
         <div className="card__time-left">
           <img src={Ether} alt="Ethereum" />
@@ -43,7 +44,7 @@ const NFTCard = () => {
       </div>
       <footer className="attribution">
         Challenge by <a href="https://www.crio.do" target="_blank" rel="noopener noreferrer">Crio</a>.
-        Coded by <a href="https://www.github.com/selvaraj-p" target="_blank" rel="noopener noreferrer">selvaraj-p</a>.
+        Coded by <a href="https://www.github.com/yourUsername" target="_blank" rel="noopener noreferrer">selvaraj-p</a>.
       </footer>
 
     </main>
