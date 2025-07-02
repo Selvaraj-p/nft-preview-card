@@ -24,9 +24,6 @@ main.card {
   display: block;
 }
 
-#info {
-  margin-top: 20px;
-}
 
 .card__title h1 {
   color: white;
