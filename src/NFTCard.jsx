@@ -19,7 +19,7 @@ const NFTCard = () => {
         </div>
       </div>
     <div className="card__title">
-          <h1>Equilibrium #info</h1>
+          <h1>Equilibrium #3429</h1>
           <p className="card__description">
             Our Equilibrium collection promotes balance and calm.
           </p>
@@ -37,9 +37,9 @@ const NFTCard = () => {
 
       <div className="card__creator">
         <img src="https://media.licdn.com/dms/image/D5603AQHmisevs6V-Wg/profile-displayphoto-shrink_200_200/0/1711565017432?e=2147483647&v=beta&t=2gxdXF049G8KQ53xOdouFjL_DKFruEzC2XH5LmLtem4" alt="Creator" />
-        <span>
+        <p>
           Creation of <strong>selvaraj-p</strong>
-        </span>
+        </p>
       </div>
       <footer className="attribution">
         Challenge by <a href="https://www.crio.do" target="_blank" rel="noopener noreferrer">Crio</a>.

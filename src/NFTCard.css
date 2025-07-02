@@ -67,7 +67,7 @@ main.card {
   gap: 5px;
 }
 
-.card__creator {
+.card__creator{
   display: flex;
   align-items: center;
   gap: 10px;
@@ -75,6 +75,16 @@ main.card {
   padding-top: 15px;
   font-size: 0.85rem;
 }
+.card__creator p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: hsl(215, 51%, 70%);
+}
+
+.card__creator strong {
+  color: white;
+}
+
 
 .card__creator img {
   width: 30px;
