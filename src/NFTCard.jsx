@@ -19,7 +19,7 @@ const NFTCard = () => {
         </div>
       </div>
     <div className="card__title">
-          <h1>Equilibrium #3429</h1>
+          <h1>Equilibrium #info</h1>
           <p className="card__description">
             Our Equilibrium collection promotes balance and calm.
           </p>
@@ -36,7 +36,7 @@ const NFTCard = () => {
       </div>
 
       <div className="card__creator">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREURSKMljVXEm57DuInU5lTToyHcaiYmWnmA&s" alt="Creator" />
+        <img src="https://media.licdn.com/dms/image/D5603AQHmisevs6V-Wg/profile-displayphoto-shrink_200_200/0/1711565017432?e=2147483647&v=beta&t=2gxdXF049G8KQ53xOdouFjL_DKFruEzC2XH5LmLtem4" alt="Creator" />
         <span>
           Creation of <strong>selvaraj-p</strong>
         </span>
