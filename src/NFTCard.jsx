@@ -18,9 +18,9 @@ const NFTCard = () => {
           <img src={EquipIco} alt="View icon" />
         </div>
       </div>
-    <div id="info">
-      <h1 className="card__title">Equilibrium #3429</h1>
-      <p className="card__description">
+    <div className="class__title">
+      <h1>Equilibrium #3429</h1>
+      <p id="info">
         Our Equilibrium collection promotes balance and calm.
       </p>
     </div>

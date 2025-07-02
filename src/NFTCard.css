@@ -34,7 +34,7 @@ main.card {
   margin-bottom: 10px;
 }
 
-#info .card__description {
+#info{
   color: hsl(215, 51%, 70%);
   font-size: 0.9rem;
   line-height: 1.5;
