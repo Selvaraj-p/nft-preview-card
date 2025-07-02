@@ -19,7 +19,9 @@ const NFTCard = () => {
         </div>
       </div>
     <div className="class__title">
-      <h1>Equilibrium #3429</h1>
+      <div class="Card__title">
+        <h1>Equilibrium #3429</h1>
+      </div>
       <p id="info">
         Our Equilibrium collection promotes balance and calm.
       </p>
