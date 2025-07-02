@@ -18,11 +18,11 @@ const NFTCard = () => {
           <img src={EquipIco} alt="View icon" />
         </div>
       </div>
-    <div className="class__title">
+    <div className="Card__title" id="info">
       <div class="Card__title">
         <h1>Equilibrium #3429</h1>
       </div>
-      <p id="info">
+      <p >
         Our Equilibrium collection promotes balance and calm.
       </p>
     </div>
