@@ -3,7 +3,6 @@
 import Equip from './images/image-equilibrium.jpg';
 import EquipIco from './images/icon-view.svg';
 import Ether from './images/icon-ethereum.svg';
-import AVR from './images/image-avatar.png';
 import CLK from './images/icon-clock.svg';
 
 import React from "react";
@@ -11,22 +10,18 @@ import "./NFTCard.css";
 
 const NFTCard = () => {
   return (
-    <main className="card">
-      <div className="card__images">
-        <img src={Equip} alt="Equilibrium NFT" />
-        <div className="card__images-layer">
-          <img src={EquipIco} alt="View icon" />
-        </div>
+
+    <main class="card">
+    <div class="card__images">
+      <img src={Equip} alt="Equilibrium NFT" class="card__image" />
+      <div class="card__images-layer">
+        <img src={EquipIco} alt="View Icon" class="card__view-icon" />
       </div>
-    <div className="Card__title" id="info">
-      <div class="Card__title">
-        <h1>Equilibrium #3429</h1>
-      </div>
-      <p >
-        Our Equilibrium collection promotes balance and calm.
-      </p>
     </div>
-      
+    <div class="card__title">
+    <h1>Equilibrium #3429</h1>
+    <p class="card__description">Our Equilibrium collection promotes balance and calm.</p>
+      </div>
     <div className="card__time">
         <div className="card__time-left">
           <img src={Ether} alt="Ethereum" />
