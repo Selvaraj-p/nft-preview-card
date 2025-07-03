@@ -4,68 +4,62 @@ body {
   color: hsl(215, 51%, 70%);
 }
 
-main.card {
-  width: 100%;
-  max-width: 300px;
+/* Card container */
+.card {
   background-color: hsl(216, 50%, 16%);
   border-radius: 15px;
   padding: 20px;
-  margin: auto;
+  max-width: 350px;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
 }
 
+/* Image container with hover effect */
 .card__images {
   position: relative;
   border-radius: 10px;
   overflow: hidden;
+  cursor: pointer;
 }
 
-.card__images img {
+.card__image {
   width: 100%;
   display: block;
-}
-
-
-.card__title h1 {
-  color: white;
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
-#info{
-  color: hsl(215, 51%, 70%);
-  font-size: 0.9rem;
-  line-height: 1.5;
 }
 
 .card__images-layer {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
   width: 100%;
-  background-color: rgba(0, 255, 247, 0.5);
+  height: 100%;
+  background-color: hsla(178, 100%, 50%, 0.5);
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease;
 }
 
 .card__images:hover .card__images-layer {
   opacity: 1;
 }
 
-.card__title {
-  font-size: 1.2rem;
-  color: white;
-  margin-top: 15px;
+.card__view-icon {
+  width: 40px;
+  height: 40px;
 }
 
-.card__description {
-  font-size: 0.9rem;
-  margin: 10px 0;
+/* Title and description */
+.card__title h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.5rem;
+  margin: 20px 0 10px;
 }
 
+#info{
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
 .card__time {
   display: flex;
   justify-content: space-between;
