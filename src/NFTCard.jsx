@@ -20,8 +20,9 @@ const NFTCard = () => {
     </div>
     <div class="card__title">
     <h1>Equilibrium #3429</h1>
-    <p id="info">Our Equilibrium collection promotes balance and calm.</p>
-      </div>
+    <div  id="info">
+    <p >Our Equilibrium collection promotes balance and calm.</p>
+      </div></div>
     <div className="card__time">
         <div className="card__time-left">
           <img src={Ether} alt="Ethereum" />
